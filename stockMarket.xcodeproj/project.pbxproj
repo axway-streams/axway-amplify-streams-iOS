@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1505B4B819F905AE0075E5A3 /* JSONDeeplyMutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4A119F905AE0075E5A3 /* JSONDeeplyMutable.m */; };
+		1505B4B919F905AE0075E5A3 /* JSONPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4A319F905AE0075E5A3 /* JSONPatch.m */; };
+		1505B4BA19F905AE0075E5A3 /* JSONPatchArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4A519F905AE0075E5A3 /* JSONPatchArray.m */; };
+		1505B4BB19F905AE0075E5A3 /* JSONPatchDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4A719F905AE0075E5A3 /* JSONPatchDictionary.m */; };
+		1505B4BC19F905AE0075E5A3 /* JSONPatchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4A919F905AE0075E5A3 /* JSONPatchInfo.m */; };
+		1505B4BD19F905AE0075E5A3 /* JSONPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4AB19F905AE0075E5A3 /* JSONPointer.m */; };
+		1505B4BE19F905AE0075E5A3 /* JSONSchemaValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4AD19F905AE0075E5A3 /* JSONSchemaValidator.m */; };
+		1505B4BF19F905AE0075E5A3 /* NSArray+JSONDeepMutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4B119F905AE0075E5A3 /* NSArray+JSONDeepMutable.m */; };
+		1505B4C019F905AE0075E5A3 /* NSArray+JSONPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4B319F905AE0075E5A3 /* NSArray+JSONPointer.m */; };
+		1505B4C119F905AE0075E5A3 /* NSDictionary+JSONDeepMutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4B519F905AE0075E5A3 /* NSDictionary+JSONDeepMutable.m */; };
+		1505B4C219F905AE0075E5A3 /* NSDictionary+JSONPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4B719F905AE0075E5A3 /* NSDictionary+JSONPointer.m */; };
+		1505B4DB19F929A40075E5A3 /* KiteJSONValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4D619F929A40075E5A3 /* KiteJSONValidator.m */; };
+		1505B4DC19F929A40075E5A3 /* Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505B4D819F929A40075E5A3 /* Pair.m */; };
+		1505B4DD19F929A40075E5A3 /* schema in Resources */ = {isa = PBXBuildFile; fileRef = 1505B4DA19F929A40075E5A3 /* schema */; };
+		151A1C4E19FA944A00763CB4 /* TRVSEventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A1C4A19FA944A00763CB4 /* TRVSEventSource.m */; };
+		151A1C4F19FA944A00763CB4 /* TRVSServerSentEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A1C4D19FA944A00763CB4 /* TRVSServerSentEvent.m */; };
+		151A1C5319FA9F7600763CB4 /* EventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A1C5219FA9F7600763CB4 /* EventSource.m */; };
+		155421EA19F5085200B04A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 155421E919F5085200B04A0E /* main.m */; };
+		155421ED19F5085200B04A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155421EC19F5085200B04A0E /* AppDelegate.m */; };
+		155421F019F5085200B04A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155421EF19F5085200B04A0E /* ViewController.m */; };
+		155421F519F5085200B04A0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155421F419F5085200B04A0E /* Images.xcassets */; };
+		155421F819F5085200B04A0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155421F619F5085200B04A0E /* LaunchScreen.xib */; };
+		CEE634A61B870EF000A4427C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE634A51B870EF000A4427C /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1505B4A019F905AE0075E5A3 /* JSONDeeplyMutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDeeplyMutable.h; sourceTree = "<group>"; };
+		1505B4A119F905AE0075E5A3 /* JSONDeeplyMutable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDeeplyMutable.m; sourceTree = "<group>"; };
+		1505B4A219F905AE0075E5A3 /* JSONPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONPatch.h; sourceTree = "<group>"; };
+		1505B4A319F905AE0075E5A3 /* JSONPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONPatch.m; sourceTree = "<group>"; };
+		1505B4A419F905AE0075E5A3 /* JSONPatchArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONPatchArray.h; sourceTree = "<group>"; };
+		1505B4A519F905AE0075E5A3 /* JSONPatchArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONPatchArray.m; sourceTree = "<group>"; };
+		1505B4A619F905AE0075E5A3 /* JSONPatchDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONPatchDictionary.h; sourceTree = "<group>"; };
+		1505B4A719F905AE0075E5A3 /* JSONPatchDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONPatchDictionary.m; sourceTree = "<group>"; };
+		1505B4A819F905AE0075E5A3 /* JSONPatchInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONPatchInfo.h; sourceTree = "<group>"; };
+		1505B4A919F905AE0075E5A3 /* JSONPatchInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONPatchInfo.m; sourceTree = "<group>"; };
+		1505B4AA19F905AE0075E5A3 /* JSONPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONPointer.h; sourceTree = "<group>"; };
+		1505B4AB19F905AE0075E5A3 /* JSONPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONPointer.m; sourceTree = "<group>"; };
+		1505B4AC19F905AE0075E5A3 /* JSONSchemaValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSchemaValidator.h; sourceTree = "<group>"; };
+		1505B4AD19F905AE0075E5A3 /* JSONSchemaValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONSchemaValidator.m; sourceTree = "<group>"; };
+		1505B4AE19F905AE0075E5A3 /* JSONTools-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONTools-Prefix.pch"; sourceTree = "<group>"; };
+		1505B4AF19F905AE0075E5A3 /* JSONTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONTools.h; sourceTree = "<group>"; };
+		1505B4B019F905AE0075E5A3 /* NSArray+JSONDeepMutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONDeepMutable.h"; sourceTree = "<group>"; };
+		1505B4B119F905AE0075E5A3 /* NSArray+JSONDeepMutable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONDeepMutable.m"; sourceTree = "<group>"; };
+		1505B4B219F905AE0075E5A3 /* NSArray+JSONPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONPointer.h"; sourceTree = "<group>"; };
+		1505B4B319F905AE0075E5A3 /* NSArray+JSONPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONPointer.m"; sourceTree = "<group>"; };
+		1505B4B419F905AE0075E5A3 /* NSDictionary+JSONDeepMutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONDeepMutable.h"; sourceTree = "<group>"; };
+		1505B4B519F905AE0075E5A3 /* NSDictionary+JSONDeepMutable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONDeepMutable.m"; sourceTree = "<group>"; };
+		1505B4B619F905AE0075E5A3 /* NSDictionary+JSONPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONPointer.h"; sourceTree = "<group>"; };
+		1505B4B719F905AE0075E5A3 /* NSDictionary+JSONPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONPointer.m"; sourceTree = "<group>"; };
+		1505B4D519F929A40075E5A3 /* KiteJSONValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KiteJSONValidator.h; sourceTree = "<group>"; };
+		1505B4D619F929A40075E5A3 /* KiteJSONValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiteJSONValidator.m; sourceTree = "<group>"; };
+		1505B4D719F929A40075E5A3 /* Pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pair.h; sourceTree = "<group>"; };
+		1505B4D819F929A40075E5A3 /* Pair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pair.m; sourceTree = "<group>"; };
+		1505B4DA19F929A40075E5A3 /* schema */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema; sourceTree = "<group>"; };
+		151A1C4919FA944A00763CB4 /* TRVSEventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVSEventSource.h; sourceTree = "<group>"; };
+		151A1C4A19FA944A00763CB4 /* TRVSEventSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVSEventSource.m; sourceTree = "<group>"; };
+		151A1C4B19FA944A00763CB4 /* TRVSEventSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVSEventSourceDelegate.h; sourceTree = "<group>"; };
+		151A1C4C19FA944A00763CB4 /* TRVSServerSentEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVSServerSentEvent.h; sourceTree = "<group>"; };
+		151A1C4D19FA944A00763CB4 /* TRVSServerSentEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVSServerSentEvent.m; sourceTree = "<group>"; };
+		151A1C5119FA9F7600763CB4 /* EventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSource.h; sourceTree = "<group>"; };
+		151A1C5219FA9F7600763CB4 /* EventSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventSource.m; sourceTree = "<group>"; };
+		155421E419F5085100B04A0E /* stockMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stockMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		155421E819F5085200B04A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		155421E919F5085200B04A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		155421EB19F5085200B04A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		155421EC19F5085200B04A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		155421EE19F5085200B04A0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		155421EF19F5085200B04A0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		155421F419F5085200B04A0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		155421F719F5085200B04A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEE634A51B870EF000A4427C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		155421E119F5085100B04A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1505B49F19F905AE0075E5A3 /* JSONTools */ = {
+			isa = PBXGroup;
+			children = (
+				1505B4D419F929A40075E5A3 /* KiteJSONValidator */,
+				1505B4A019F905AE0075E5A3 /* JSONDeeplyMutable.h */,
+				1505B4A119F905AE0075E5A3 /* JSONDeeplyMutable.m */,
+				1505B4A219F905AE0075E5A3 /* JSONPatch.h */,
+				1505B4A319F905AE0075E5A3 /* JSONPatch.m */,
+				1505B4A419F905AE0075E5A3 /* JSONPatchArray.h */,
+				1505B4A519F905AE0075E5A3 /* JSONPatchArray.m */,
+				1505B4A619F905AE0075E5A3 /* JSONPatchDictionary.h */,
+				1505B4A719F905AE0075E5A3 /* JSONPatchDictionary.m */,
+				1505B4A819F905AE0075E5A3 /* JSONPatchInfo.h */,
+				1505B4A919F905AE0075E5A3 /* JSONPatchInfo.m */,
+				1505B4AA19F905AE0075E5A3 /* JSONPointer.h */,
+				1505B4AB19F905AE0075E5A3 /* JSONPointer.m */,
+				1505B4AC19F905AE0075E5A3 /* JSONSchemaValidator.h */,
+				1505B4AD19F905AE0075E5A3 /* JSONSchemaValidator.m */,
+				1505B4AE19F905AE0075E5A3 /* JSONTools-Prefix.pch */,
+				1505B4AF19F905AE0075E5A3 /* JSONTools.h */,
+				1505B4B019F905AE0075E5A3 /* NSArray+JSONDeepMutable.h */,
+				1505B4B119F905AE0075E5A3 /* NSArray+JSONDeepMutable.m */,
+				1505B4B219F905AE0075E5A3 /* NSArray+JSONPointer.h */,
+				1505B4B319F905AE0075E5A3 /* NSArray+JSONPointer.m */,
+				1505B4B419F905AE0075E5A3 /* NSDictionary+JSONDeepMutable.h */,
+				1505B4B519F905AE0075E5A3 /* NSDictionary+JSONDeepMutable.m */,
+				1505B4B619F905AE0075E5A3 /* NSDictionary+JSONPointer.h */,
+				1505B4B719F905AE0075E5A3 /* NSDictionary+JSONPointer.m */,
+			);
+			name = JSONTools;
+			path = stockMarket/JSONTools;
+			sourceTree = "<group>";
+		};
+		1505B4D419F929A40075E5A3 /* KiteJSONValidator */ = {
+			isa = PBXGroup;
+			children = (
+				1505B4D519F929A40075E5A3 /* KiteJSONValidator.h */,
+				1505B4D619F929A40075E5A3 /* KiteJSONValidator.m */,
+				1505B4D719F929A40075E5A3 /* Pair.h */,
+				1505B4D819F929A40075E5A3 /* Pair.m */,
+				1505B4D919F929A40075E5A3 /* ReferenceSchemae */,
+			);
+			path = KiteJSONValidator;
+			sourceTree = "<group>";
+		};
+		1505B4D919F929A40075E5A3 /* ReferenceSchemae */ = {
+			isa = PBXGroup;
+			children = (
+				1505B4DA19F929A40075E5A3 /* schema */,
+			);
+			path = ReferenceSchemae;
+			sourceTree = "<group>";
+		};
+		151A1C4819FA944A00763CB4 /* TRVSEventSource */ = {
+			isa = PBXGroup;
+			children = (
+				151A1C4919FA944A00763CB4 /* TRVSEventSource.h */,
+				151A1C4A19FA944A00763CB4 /* TRVSEventSource.m */,
+				151A1C4B19FA944A00763CB4 /* TRVSEventSourceDelegate.h */,
+				151A1C4C19FA944A00763CB4 /* TRVSServerSentEvent.h */,
+				151A1C4D19FA944A00763CB4 /* TRVSServerSentEvent.m */,
+			);
+			name = TRVSEventSource;
+			path = stockMarket/TRVSEventSource;
+			sourceTree = "<group>";
+		};
+		151A1C5019FA9F7600763CB4 /* EventSource */ = {
+			isa = PBXGroup;
+			children = (
+				151A1C5119FA9F7600763CB4 /* EventSource.h */,
+				151A1C5219FA9F7600763CB4 /* EventSource.m */,
+			);
+			name = EventSource;
+			path = stockMarket/EventSource;
+			sourceTree = "<group>";
+		};
+		155421DB19F5085100B04A0E = {
+			isa = PBXGroup;
+			children = (
+				CEE634A51B870EF000A4427C /* Default-568h@2x.png */,
+				151A1C5019FA9F7600763CB4 /* EventSource */,
+				151A1C4819FA944A00763CB4 /* TRVSEventSource */,
+				1505B49F19F905AE0075E5A3 /* JSONTools */,
+				155421E619F5085100B04A0E /* stockMarket */,
+				155421E519F5085100B04A0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		155421E519F5085100B04A0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				155421E419F5085100B04A0E /* stockMarket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		155421E619F5085100B04A0E /* stockMarket */ = {
+			isa = PBXGroup;
+			children = (
+				155421EB19F5085200B04A0E /* AppDelegate.h */,
+				155421EC19F5085200B04A0E /* AppDelegate.m */,
+				155421EE19F5085200B04A0E /* ViewController.h */,
+				155421EF19F5085200B04A0E /* ViewController.m */,
+				155421F419F5085200B04A0E /* Images.xcassets */,
+				155421F619F5085200B04A0E /* LaunchScreen.xib */,
+				155421E719F5085100B04A0E /* Supporting Files */,
+			);
+			path = stockMarket;
+			sourceTree = "<group>";
+		};
+		155421E719F5085100B04A0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				155421E819F5085200B04A0E /* Info.plist */,
+				155421E919F5085200B04A0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		155421E319F5085100B04A0E /* stockMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1554220719F5085200B04A0E /* Build configuration list for PBXNativeTarget "stockMarket" */;
+			buildPhases = (
+				155421E019F5085100B04A0E /* Sources */,
+				155421E119F5085100B04A0E /* Frameworks */,
+				155421E219F5085100B04A0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stockMarket;
+			productName = stockMarket;
+			productReference = 155421E419F5085100B04A0E /* stockMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		155421DC19F5085100B04A0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = product;
+				TargetAttributes = {
+					155421E319F5085100B04A0E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 155421DF19F5085100B04A0E /* Build configuration list for PBXProject "stockMarket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 155421DB19F5085100B04A0E;
+			productRefGroup = 155421E519F5085100B04A0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				155421E319F5085100B04A0E /* stockMarket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		155421E219F5085100B04A0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155421F819F5085200B04A0E /* LaunchScreen.xib in Resources */,
+				CEE634A61B870EF000A4427C /* Default-568h@2x.png in Resources */,
+				155421F519F5085200B04A0E /* Images.xcassets in Resources */,
+				1505B4DD19F929A40075E5A3 /* schema in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		155421E019F5085100B04A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1505B4BB19F905AE0075E5A3 /* JSONPatchDictionary.m in Sources */,
+				1505B4C119F905AE0075E5A3 /* NSDictionary+JSONDeepMutable.m in Sources */,
+				1505B4BF19F905AE0075E5A3 /* NSArray+JSONDeepMutable.m in Sources */,
+				1505B4BE19F905AE0075E5A3 /* JSONSchemaValidator.m in Sources */,
+				151A1C4E19FA944A00763CB4 /* TRVSEventSource.m in Sources */,
+				1505B4BC19F905AE0075E5A3 /* JSONPatchInfo.m in Sources */,
+				151A1C5319FA9F7600763CB4 /* EventSource.m in Sources */,
+				1505B4B919F905AE0075E5A3 /* JSONPatch.m in Sources */,
+				1505B4BD19F905AE0075E5A3 /* JSONPointer.m in Sources */,
+				1505B4C019F905AE0075E5A3 /* NSArray+JSONPointer.m in Sources */,
+				151A1C4F19FA944A00763CB4 /* TRVSServerSentEvent.m in Sources */,
+				1505B4C219F905AE0075E5A3 /* NSDictionary+JSONPointer.m in Sources */,
+				155421F019F5085200B04A0E /* ViewController.m in Sources */,
+				1505B4BA19F905AE0075E5A3 /* JSONPatchArray.m in Sources */,
+				1505B4DC19F929A40075E5A3 /* Pair.m in Sources */,
+				1505B4DB19F929A40075E5A3 /* KiteJSONValidator.m in Sources */,
+				155421ED19F5085200B04A0E /* AppDelegate.m in Sources */,
+				1505B4B819F905AE0075E5A3 /* JSONDeeplyMutable.m in Sources */,
+				155421EA19F5085200B04A0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		155421F619F5085200B04A0E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155421F719F5085200B04A0E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1554220519F5085200B04A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1554220619F5085200B04A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1554220819F5085200B04A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stockMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1554220919F5085200B04A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stockMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		155421DF19F5085100B04A0E /* Build configuration list for PBXProject "stockMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1554220519F5085200B04A0E /* Debug */,
+				1554220619F5085200B04A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1554220719F5085200B04A0E /* Build configuration list for PBXNativeTarget "stockMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1554220819F5085200B04A0E /* Debug */,
+				1554220919F5085200B04A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 155421DC19F5085100B04A0E /* Project object */;
+}
