@@ -25,7 +25,7 @@ static NSString * const kStreamdataioPrefix =
 static NSString * const kStockMarketUrl =
     @"http://stockmarket.streamdata.io/prices";
 static NSString * kToken =
-    //@"YOUR_TOKEN-HERE";
+    @"YOUR_TOKEN-HERE";
 
 @interface ViewController ()
 
