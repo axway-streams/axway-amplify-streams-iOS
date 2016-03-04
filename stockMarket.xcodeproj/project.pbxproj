@@ -23,7 +23,6 @@
 		1505B4DD19F929A40075E5A3 /* schema in Resources */ = {isa = PBXBuildFile; fileRef = 1505B4DA19F929A40075E5A3 /* schema */; };
 		151A1C4E19FA944A00763CB4 /* TRVSEventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A1C4A19FA944A00763CB4 /* TRVSEventSource.m */; };
 		151A1C4F19FA944A00763CB4 /* TRVSServerSentEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A1C4D19FA944A00763CB4 /* TRVSServerSentEvent.m */; };
-		151A1C5319FA9F7600763CB4 /* EventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A1C5219FA9F7600763CB4 /* EventSource.m */; };
 		155421EA19F5085200B04A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 155421E919F5085200B04A0E /* main.m */; };
 		155421ED19F5085200B04A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155421EC19F5085200B04A0E /* AppDelegate.m */; };
 		155421F019F5085200B04A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155421EF19F5085200B04A0E /* ViewController.m */; };
@@ -67,8 +66,6 @@
 		151A1C4B19FA944A00763CB4 /* TRVSEventSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVSEventSourceDelegate.h; sourceTree = "<group>"; };
 		151A1C4C19FA944A00763CB4 /* TRVSServerSentEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVSServerSentEvent.h; sourceTree = "<group>"; };
 		151A1C4D19FA944A00763CB4 /* TRVSServerSentEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVSServerSentEvent.m; sourceTree = "<group>"; };
-		151A1C5119FA9F7600763CB4 /* EventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSource.h; sourceTree = "<group>"; };
-		151A1C5219FA9F7600763CB4 /* EventSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventSource.m; sourceTree = "<group>"; };
 		155421E419F5085100B04A0E /* stockMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stockMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155421E819F5085200B04A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		155421E919F5085200B04A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -158,21 +155,10 @@
 			path = stockMarket/TRVSEventSource;
 			sourceTree = "<group>";
 		};
-		151A1C5019FA9F7600763CB4 /* EventSource */ = {
-			isa = PBXGroup;
-			children = (
-				151A1C5119FA9F7600763CB4 /* EventSource.h */,
-				151A1C5219FA9F7600763CB4 /* EventSource.m */,
-			);
-			name = EventSource;
-			path = stockMarket/EventSource;
-			sourceTree = "<group>";
-		};
 		155421DB19F5085100B04A0E = {
 			isa = PBXGroup;
 			children = (
 				CEE634A51B870EF000A4427C /* Default-568h@2x.png */,
-				151A1C5019FA9F7600763CB4 /* EventSource */,
 				151A1C4819FA944A00763CB4 /* TRVSEventSource */,
 				1505B49F19F905AE0075E5A3 /* JSONTools */,
 				155421E619F5085100B04A0E /* stockMarket */,
@@ -288,7 +274,6 @@
 				1505B4BE19F905AE0075E5A3 /* JSONSchemaValidator.m in Sources */,
 				151A1C4E19FA944A00763CB4 /* TRVSEventSource.m in Sources */,
 				1505B4BC19F905AE0075E5A3 /* JSONPatchInfo.m in Sources */,
-				151A1C5319FA9F7600763CB4 /* EventSource.m in Sources */,
 				1505B4B919F905AE0075E5A3 /* JSONPatch.m in Sources */,
 				1505B4BD19F905AE0075E5A3 /* JSONPointer.m in Sources */,
 				1505B4C019F905AE0075E5A3 /* NSArray+JSONPointer.m in Sources */,
